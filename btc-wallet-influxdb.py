@@ -13,6 +13,7 @@ def balance(address):
     total = (blockcypher.get_total_balance(address) / 100000000)
     return total
 
+
 if __name__ == '__main__':
 
     # INFLUXDB SETTINGS
